@@ -7,6 +7,7 @@ from credentials import *
 import sys
 import codecs
 import json
+import datetime
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -19,12 +20,12 @@ api = tweepy.API(auth)
 #4502
 #maxid = '907845557850435584'
 
-line = ""
-for twi_id in ftwi:
-         print twi_id
+def getTwi(twi_id,count):
+    
+         line = ""
          twi_id = twi_id.replace('\n','')
          #ss = api.user_timeline(id=twi_id, max_id = maxid, count=200)
-         ss = api.user_timeline(id=twi_id, count=200)
+         ss = api.user_timeline(id=twi_id, count=1)
          for status in ss:
              iurl = ''
              vurl = ''
@@ -51,16 +52,24 @@ for twi_id in ftwi:
                                   #print iurl
                                   #print status._json
              line = line + twi_id+'||'+str(sid)+'||'+stext+'||'+iurl+'||'+vurl+'\n'
+         return line
              #print line.encode('utf-8')
     #json.dump(status._json,ft)
 #print line
 #print surl
 
+now =  datetime.datetime.now()
+timestr = str(now).replace(' ','-').replace(':','-')
+#print str(now)+'\n'+timestr+'\n'+timestr[:19]
 
-out = "twi_status.txt"
 twi = "twi_list.txt"
-fout = codecs.open(out,"w",encoding="utf-8")
+#fout = codecs.open(out,"w",encoding="utf-8")
 ftwi = codecs.open(twi,'r',encoding="utf-8")
-line = getTwi(ftwi)
-fout.write(line)
-print "input: "+ twi+"\n"+ "output: "+out
+count = 1
+cdir = ".\\status\\"
+for twi_id in ftwi: 
+     tstatus = getTwi(twi_id,count)
+     out = cdir+twi_id+'-'+timestr[:16]+'.txt'
+     fout = codecs.open(out,"w",encoding="utf-8")
+     fout.write(tstatus)
+print "input: "+ twi+"\ncount: "+str(count)+ "\noutput: "+out

@@ -9,6 +9,8 @@ twi_down_01.py     download pics from twit
                                    status-down\acc-time.txt done files]
 
 //links
+https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/tweet-object 
+                   tweet object
 http://www.nirg.net/using-tweepy.html  
                    Best Practices for Querying Twitter API using (forked) tweepy
 http://www.dealingdata.net/2016/07/23/PoGo-Series-Tweepy/  

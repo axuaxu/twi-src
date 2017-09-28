@@ -1,3 +1,8 @@
+//
+twi_status:        get status from twitter acc
+                   params:[input: acc twi_list.txt 
+                           output: twi_id_time.txt]
+
 //links
 http://www.nirg.net/using-tweepy.html  
                    Best Practices for Querying Twitter API using (forked) tweepy

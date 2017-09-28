@@ -22,7 +22,7 @@ def downPics(fname,imgD,videoD):
   dd = darr[2]
   farr = dd.split("-")
   userid = farr[0]
-  #print userid
+  print userid
   for line in ft:
        # print line.encode('utf-8')
     #line = line.replace('\r\n','')

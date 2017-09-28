@@ -29,7 +29,9 @@ def getTwi(twi_id,count):
          for status in ss:
              iurl = ''
              vurl = ''
-             #print status.author, status.user
+             #print status.retweet_count, status.favorite_count
+             retwi = status.retweet_count
+             fav = status.favorite_count
              sid = status._json['id']
              stext = status.text.encode('utf-8')
              stext = stext.replace('\r',' ')
@@ -51,7 +53,7 @@ def getTwi(twi_id,count):
     
                                   #print iurl
                                   #print status._json
-             line = line + twi_id+'||'+str(sid)+'||'+stext+'||'+iurl+'||'+vurl+'\n'
+             line = line + twi_id+'||'+str(sid)+'||'+str(retwi)+'||'+str(fav)+'||'+stext+'||'+iurl+'||'+vurl+'\n'
          return line
              #print line.encode('utf-8')
     #json.dump(status._json,ft)

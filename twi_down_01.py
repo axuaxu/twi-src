@@ -39,13 +39,14 @@ def downPics(fname,imgD,videoD):
              img = narr[-1]
              iname = imgD+userid+'-'+twit_id+'-'+img
              urllib.urlretrieve(t[3],iname)
-           #indentation
-           #print img
-           #iname = imgD+userid+'-'+twit_id+'-'+img
-    	     #urllib.urlretrieve(t[3],iname)
-           #print img
+          
        if ('.mp4' in t[4]) or ('.m3u8' in t[4]):
-    	    varr = t[4].split('/')
+             varr = t[4].split('/')
+             video = varr[-1].replace('\n','')
+             vname = videoD + userid + '-' + twit_id + '-'+video
+             urllib.urlretrieve(t[4],vname)
+    	      #varr = t[4].split('/')
+            #video = varr[-1].replace('\n','')
           #video = varr[-1].replace('\n','')
           #vname = videoD + userid + '-' + twit_id + '-'+video
     	    #video = varr[-1].replace('\n','')

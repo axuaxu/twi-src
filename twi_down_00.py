@@ -18,28 +18,39 @@ sys.setdefaultencoding('utf-8')
 def downPics(fname,imgD,videoD):
 # define image file name = userid t[0] + twit_id t[1]
   ft = codecs.open(fname,"r",encoding="utf-8")
+  darr = fname.split("\\")
+  dd = darr[2]
+  farr = dd.split("-")
+  userid = farr[0]
+  #print userid
   for line in ft:
        # print line.encode('utf-8')
+    #line = line.replace('\r\n','')
+    
     t = line.split('||')
     if len(t) > 3:
-       userid = t[0].replace('\n','')
+       #print t[0]
+       #userid = t[0].replace('\n','')
        twit_id = t[1]
        url = t[3]
        if '.jpg' in t[3]:
-    	     narr = t[3].split('/')
-    	     img = narr[-1]
+             #print userid
+             narr = t[3].split('/')
+             img = narr[-1]
+             iname = imgD+userid+'-'+twit_id+'-'+img
+             urllib.urlretrieve(t[3],iname)
            #indentation
            #print img
            #iname = imgD+userid+'-'+twit_id+'-'+img
     	     #urllib.urlretrieve(t[3],iname)
-           print img
+           #print img
        if ('.mp4' in t[4]) or ('.m3u8' in t[4]):
-    	  varr = t[4].split('/')
-    	  video = varr[-1].replace('\n','')
+    	    varr = t[4].split('/')
+    	    video = varr[-1].replace('\n','')
           #vname =  '.\\videos\\amazingnature33\\'+video
           vname = videoD + userid+'-'+twit_id+'-'+video
           urllib.urlretrieve(t[4],vname)
-          print vname
+          #print vname
 
 
 source = os.listdir(".\\status\\")

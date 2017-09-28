@@ -25,7 +25,7 @@ def getTwi(twi_id,count):
          line = ""
          twi_id = twi_id.replace('\n','')
          #ss = api.user_timeline(id=twi_id, max_id = maxid, count=200)
-         ss = api.user_timeline(id=twi_id, count=1)
+         ss = api.user_timeline(id=twi_id, count=count)
          for status in ss:
              iurl = ''
              vurl = ''
@@ -65,11 +65,12 @@ timestr = str(now).replace(' ','-').replace(':','-')
 twi = "twi_list.txt"
 #fout = codecs.open(out,"w",encoding="utf-8")
 ftwi = codecs.open(twi,'r',encoding="utf-8")
-count = 1
-cdir = ".\\status\\"
+count = 100
+cdir = '.\\status'
 for twi_id in ftwi: 
      tstatus = getTwi(twi_id,count)
-     out = cdir+twi_id+'-'+timestr[:16]+'.txt'
+     out = cdir+'\\'+twi_id+'-'+timestr[:16]+'.txt'
+     out = out.replace('\r\n','')
      fout = codecs.open(out,"w",encoding="utf-8")
      fout.write(tstatus)
 print "input: "+ twi+"\ncount: "+str(count)+ "\noutput: "+out

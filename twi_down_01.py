@@ -72,4 +72,5 @@ for files in source:
       downPics(f,imgD,videoD)
       shutil.move(f,fd)
     i = i + 1
-print ("source status %s \nimages %s \nvideos %s \ndown status %s",source,imgD,videoD,destination)
+#print ("source status %s \nimages %s \nvideos %s \ndown status %s",source,imgD,videoD,destination)
+print ("source status:",srcdir," images:",imgD," videos:", videoD," down status: ",destination)

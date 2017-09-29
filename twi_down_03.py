@@ -23,42 +23,29 @@ def downPics(fname,imgD,videoD):
   farr = dd.split("-")
   userid = farr[0]
   print userid
-  src=".\\images"
-  source = os.listdir(src)
-  src2 = ".\\videos"
-  source2 = os.listdir(src2)
   for line in ft:
        # print line.encode('utf-8')
     #line = line.replace('\r\n','')
-    
+   if len(line) >0:
     t = line.split('||')
     if len(t) > 3:
        #print t[0]
        #userid = t[0].replace('\n','')
        twit_id = t[1]
-       for ff in source:
-          if not ff.startswith(userid+'-'+twit_id):
-            
-             url = t[5]
-             if '.jpg' in t[5]:
+       url = t[5]
+       if '.jpg' in t[5]:
              #print userid
-                narr = t[5].split('/')
-                img = narr[-1]
-                iname = imgD+userid+'-'+twit_id+'-'+img
-                #urllib.urlretrieve(t[5],iname)
-                print t[5],iname
-          else:
-              print ff
-       for ff in source2:
-            if not ff.startswith(userid+'-'+twit_id):   
-               if ('.mp4' in t[6]) or ('.m3u8' in t[6]):
-                  varr = t[6].split('/')
-                  video = varr[-1].replace('\n','')
-                  vname = videoD + userid + '-' + twit_id + '-'+video
-                  #urllib.urlretrieve(t[6],vname)
-                  print t[6],vname
-            else:
-                print ff
+             narr = t[5].split('/')
+             img = narr[-1]
+             iname = imgD+userid+'-'+twit_id+'-'+img
+             urllib.urlretrieve(t[5],iname)
+             print iname
+       if ('.mp4' in t[6]) or ('.m3u8' in t[6]):
+             varr = t[6].split('/')
+             video = varr[-1].replace('\n','')
+             vname = videoD + userid + '-' + twit_id + '-'+video
+             urllib.urlretrieve(t[6],vname)
+             print vname
     	      #varr = t[4].split('/')
             #video = varr[-1].replace('\n','')
           #video = varr[-1].replace('\n','')

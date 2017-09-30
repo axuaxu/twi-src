@@ -21,23 +21,27 @@ def insertT(table_name,column_name,val):
 # C) Updates the newly inserted or pre-existing entry            
 #c.execute("UPDATE {tn} SET {cn}=('Hi World') WHERE {idf}=(123456)".\
 #        format(tn=table_name, cn=column_name, idf=id_column))
-table_name = 'twipic_imginfo'
+table_name = 'twipic_statusinfo'
 #id_column = 'my_1st_column'
-column_name = 'file_name'
+#column_name = 'file_name'
 
-listfile = ".\\csv\\imglist.txt"
+listfile = "c:\\python27\\twipro\\twi-src\\status\\PicPublic-2017-09-29-10-45.txt"
 #column_name = "file_name"
-column_name = "twi_acc,twi_id,img_name" 
+column_name = "twi_acc,twi_id,retwi,fav,desc,url" 
 valStr=""
 listF = open(listfile,'r')
 for fname in listF:
 	#print fname
-	fnameArr = fname.split('-',2)
-	if len(fnameArr) > 1:
+	fnameArr = fname.split('||')
+	if len(fnameArr) > 4:
 	   twi_acc = fnameArr[0]
 	   twi_id = fnameArr[1]
-	   img_name = fnameArr[2]
-	   valStr = twi_acc+"','"+twi_id+"','"+img_name 
+	   retwi = fnameArr[2]
+	   fav = fnameArr[3]
+	   desc = fnameArr[4].replace("'","")
+	   url = fnameArr[5]
+	   valStr = twi_acc+"','"+twi_id+"','"+retwi+"','"+fav +"','"+desc+"','"+url
+	   print table_name,column_name,valStr
 	insertT(table_name,column_name,valStr)
 
 conn.commit()

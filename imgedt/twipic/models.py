@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
+import datetime
+from django.utils import timezone
 
 from django.db import models
 
@@ -11,17 +13,22 @@ class ImgInfo(models.Model):
     twi_acc = models.CharField(max_length=30)
     twi_id = models.CharField(max_length=30)
     img_name = models.CharField(max_length=30)
-
+    
 class VdoInfo(models.Model):
     twi_acc = models.CharField(max_length=30)
     twi_id = models.CharField(max_length=30)
     vdo_name = models.CharField(max_length=30)
-
+    
 class StatusInfo(models.Model):
     twi_acc = models.CharField(max_length=30)
     twi_id = models.CharField(max_length=30)
-    retwi = models.CharField(max_length=10)
-    fav = models.CharField(max_length=10)
+    retwi = models.CharField(max_length=30)
+    fav = models.CharField(max_length=30)
     desc = models.CharField(max_length=140)
-    url = models.CharField(max_length=80)
-
+    imgurl = models.CharField(max_length=80)
+    def __str__(self):
+        return self.imgurl
+    def image_tag(self):
+         return u'<img src="%s" />' % imgurl
+    image_tag.short_description = 'Image'
+    image_tag.allow_tags = True

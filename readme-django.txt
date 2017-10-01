@@ -25,8 +25,8 @@ media_list.py       list images video files in dir \images  videos
 media_list.py       list images video files in dir \images  videos
                     param:[input: image dir ouput: imglist.txt vdolis.txt]
                     
-load_img_01.py   load image file nammes to twipic  table first_input
-load_media_info.py  load image file nammes to twipic  table imageinfo
+load_img_01.py   load image file names to twipic  table first_input
+load_media_info.py  load status files under status-down dir to twipic  table imageinfo
 
 
 //links
@@ -34,3 +34,6 @@ load_media_info.py  load image file nammes to twipic  table imageinfo
 http://sebastianraschka.com/Articles/2014_sqlite_in_python_tutorial.html
                                 sqlite
 db browser for sqlite
+
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Admin_site
+                                django admin

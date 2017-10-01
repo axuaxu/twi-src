@@ -15,7 +15,14 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-
+from django.conf.urls import include
+from photologue.sitemaps import GallerySitemap, PhotoSitemap
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^photologue/', include('photologue.urls', namespace='photologue')),
 ]
+sitemaps = {
+            'photologue_galleries': GallerySitemap,
+            'photologue_photos': PhotoSitemap,
+            
+            }

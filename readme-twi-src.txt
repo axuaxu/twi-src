@@ -13,6 +13,8 @@ twi_down_03.py     download pics from twit
 img_list.py       list images files in dir \images
                   param:[input: image dir ouput: imglist.txt]
 
+twi_search.py     search twitter
+
 
 //links
 https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/tweet-object 
@@ -27,3 +29,5 @@ http://ataspinar.com/2015/11/09/collecting-data-from-twitter/
                    Collecting Data from Twitter
 https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/
                    Mining Twitter Data with Python (Part 1: Collecting data)
+https://www.karambelkar.info/2015/01/how-to-use-twitters-search-rest-api-most-effectively./
+                 How to use Twitter’s Search REST API most effectively.

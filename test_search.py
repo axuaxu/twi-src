@@ -12,8 +12,8 @@ twits = api.search(q="#archpics", count=2)
  
 for tweet in tweepy.Cursor(api.search,
                            q="#archpics",
-                           rpp=5,
+                           rpp=100,
                            result_type="recent",
                            include_entities=True,
-                           lang="en").items():
+                           lang="en").items(100):
     print tweet.created_at, tweet.retweet_count

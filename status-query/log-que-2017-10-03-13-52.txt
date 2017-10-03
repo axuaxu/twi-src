@@ -1,0 +1,21 @@
+
+input: rolfamstrong
+
+output: .\status-query\que-rolfamstrong-2017-10-03-13-52.txtDownloaded 0 tweets, Saved to .\status-query\que-rolfamstrong-2017-10-03-13-52.txt
+input: sanyu
+
+output: .\status-query\que-sanyu-2017-10-03-13-52.txtDownloaded 669 tweets, Saved to .\status-query\que-sanyu-2017-10-03-13-52.txt
+input: stefanluchian
+
+output: .\status-query\que-stefanluchian-2017-10-03-13-52.txtDownloaded 0 tweets, Saved to .\status-query\que-stefanluchian-2017-10-03-13-52.txt
+input: tomthomson
+
+output: .\status-query\que-tomthomson-2017-10-03-13-52.txtDownloaded 272 tweets, Saved to .\status-query\que-tomthomson-2017-10-03-13-52.txt
+input: toriikotondo
+
+output: .\status-query\que-toriikotondo-2017-10-03-13-52.txtDownloaded 0 tweets, Saved to .\status-query\que-toriikotondo-2017-10-03-13-52.txt
+input: vasilepopescu
+
+output: .\status-query\que-vasilepopescu-2017-10-03-13-52.txtDownloaded 0 tweets, Saved to .\status-query\que-vasilepopescu-2017-10-03-13-52.txt
+input: vicentemanansala
+output: .\status-query\que-vicentemanansala-2017-10-03-13-52.txtDownloaded 0 tweets, Saved to .\status-query\que-vicentemanansala-2017-10-03-13-52.txt

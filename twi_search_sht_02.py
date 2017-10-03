@@ -7,6 +7,9 @@ import codecs
 import datetime
 import json
 
+reload(sys)  
+sys.setdefaultencoding('utf8')
+
 auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
 #auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth, wait_on_rate_limit=True,
@@ -17,10 +20,41 @@ if (not api):
     sys.exit(-1)
 
 
-def twiItem(tjson):
-    iStr = str(tjson['id'])
-    return iStr
-
+def twiItem(que,status):
+             #iStr = str(tjson['id'])
+             iurl = ''
+             vurl = ''
+             line = ''
+             #print status.retweet_count, status.favorite_count
+             retwi = status['retweet_count']
+             fav = status['favorite_count']
+             sid = status['id']
+             stext = status['text'].encode('utf-8')
+             stext = stext.replace('\r',' ')
+             stext = stext.replace('\n',' ')
+             que = que.replace('\r','')
+             que = que.replace('\n','')
+             #api.retweet(sid)
+             #print status._json['media_url']
+             #surl = status._json['entities']['media'][0]['media_url_https']
+             #tweepy.Cursor(api.search, q="#hashtag", count=5, include_entities=True)
+             if 'media' in status['entities']:
+               for image in  status['entities']['media']:
+                   iurl = image['media_url_https']
+                   if 'video' in iurl:
+                       if 'media' in status['extended_entities']:
+                            for video in status['extended_entities']['media']:
+                                if 'video_info' in video:
+                                    if len( video['video_info']['variants']) >1 :
+                                        vurl = video['video_info']['variants'][1]['url']
+                                        #print vurl
+    
+                                  #print iurl
+                                  #print status._json
+             line = line +que+'||'+str(sid)+'||'+str(retwi)+'||'+str(fav)+'||'+stext+'||'+iurl+'||'+vurl+'\n'
+             #line = line +que+'||'+str(sid)+'||'+str(retwi)+'||'+str(fav)+'||'+'||'+iurl+'||'+vurl+'\n'
+             return line
+   
 def TwiSearch(que,fName,sinceId,max_id):
     searchQuery = que
       # this is what we're searching for
@@ -65,7 +99,7 @@ def TwiSearch(que,fName,sinceId,max_id):
                     # f.write(jsonpickle.encode(tweet._json, unpicklable=False) +
                        #         '\n')
                        f.write(str(tweet._json)+'\n')
-                       itemStr = itemStr+twiItem(tweet._json)
+                       itemStr = itemStr+twiItem(que,tweet._json)
                    sFile.write(itemStr)     
                    tweetCount += len(new_tweets)
                    print("\nDownloaded {0} tweets".format(tweetCount))

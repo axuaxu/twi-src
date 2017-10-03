@@ -58,7 +58,8 @@ def TwiSearch(que,fName,sinceId,max_id):
                     # f.write(jsonpickle.encode(tweet._json, unpicklable=False) +
                        #         '\n')
                        f.write(str(tweet._json)+'\n')
-                       print "\nretweet "+str(tweet._json['id'])
+                       print "\nid "+str(tweet._json['id'])
+                       print "\nretwi "+str(tweet._json['retweet_count'])
                    tweetCount += len(new_tweets)
                    print("\nDownloaded {0} tweets".format(tweetCount))
                    max_id = new_tweets[-1].id

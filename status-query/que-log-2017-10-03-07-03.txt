@@ -1,3 +1,0 @@
-
-input: marcchagall
-output: .\status-query\que-marcchagall-2017-10-03-07-03.txtDownloaded 313 tweets, Saved to .\status-query\que-marcchagall-2017-10-03-07-03.txt

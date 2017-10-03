@@ -1,0 +1,213 @@
+
+input: ayjackson
+
+output: .\status-query\que-ayjackson-2017-10-03-14-01.txtDownloaded 7 tweets, Saved to .\status-query\que-ayjackson-2017-10-03-14-01.txt
+input: abrahammanievich
+
+output: .\status-query\que-abrahammanievich-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-abrahammanievich-2017-10-03-14-01.txt
+input: agneslawrencepelton
+
+output: .\status-query\que-agneslawrencepelton-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-agneslawrencepelton-2017-10-03-14-01.txt
+input: alexejvonjawlensky
+
+output: .\status-query\que-alexejvonjawlensky-2017-10-03-14-01.txtDownloaded 1 tweets, Saved to .\status-query\que-alexejvonjawlensky-2017-10-03-14-01.txt
+input: amedeomodigliani
+
+output: .\status-query\que-amedeomodigliani-2017-10-03-14-01.txtDownloaded 15 tweets, Saved to .\status-query\que-amedeomodigliani-2017-10-03-14-01.txt
+input: armandguillaumin
+
+output: .\status-query\que-armandguillaumin-2017-10-03-14-01.txtDownloaded 4 tweets, Saved to .\status-query\que-armandguillaumin-2017-10-03-14-01.txt
+input: aubreybeardsley
+
+output: .\status-query\que-aubreybeardsley-2017-10-03-14-01.txtDownloaded 69 tweets, Saved to .\status-query\que-aubreybeardsley-2017-10-03-14-01.txt
+input: augustmacke
+
+output: .\status-query\que-augustmacke-2017-10-03-14-01.txtDownloaded 78 tweets, Saved to .\status-query\que-augustmacke-2017-10-03-14-01.txt
+input: augusteherbin
+
+output: .\status-query\que-augusteherbin-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-augusteherbin-2017-10-03-14-01.txt
+input: badashanren
+
+output: .\status-query\que-badashanren-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-badashanren-2017-10-03-14-01.txt
+input: camillepissarro
+
+output: .\status-query\que-camillepissarro-2017-10-03-14-01.txtDownloaded 90 tweets, Saved to .\status-query\que-camillepissarro-2017-10-03-14-01.txt
+input: changdaichien
+
+output: .\status-query\que-changdaichien-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-changdaichien-2017-10-03-14-01.txt
+input: claudemonet
+
+output: .\status-query\que-claudemonet-2017-10-03-14-01.txtDownloaded 1284 tweets, Saved to .\status-query\que-claudemonet-2017-10-03-14-01.txt
+input: corneliumichailescu
+
+output: .\status-query\que-corneliumichailescu-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-corneliumichailescu-2017-10-03-14-01.txt
+input: costasniarchos
+
+output: .\status-query\que-costasniarchos-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-costasniarchos-2017-10-03-14-01.txt
+input: edgardegas
+
+output: .\status-query\que-edgardegas-2017-10-03-14-01.txtDownloaded 369 tweets, Saved to .\status-query\que-edgardegas-2017-10-03-14-01.txt
+input: edwardburnejones
+
+output: .\status-query\que-edwardburnejones-2017-10-03-14-01.txtDownloaded 33 tweets, Saved to .\status-query\que-edwardburnejones-2017-10-03-14-01.txt
+input: emileclaus
+
+output: .\status-query\que-emileclaus-2017-10-03-14-01.txtDownloaded 1 tweets, Saved to .\status-query\que-emileclaus-2017-10-03-14-01.txt
+input: emilycarr
+
+output: .\status-query\que-emilycarr-2017-10-03-14-01.txtDownloaded 35 tweets, Saved to .\status-query\que-emilycarr-2017-10-03-14-01.txt
+input: emmericonunes
+
+output: .\status-query\que-emmericonunes-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-emmericonunes-2017-10-03-14-01.txt
+input: eugnegrasset
+
+output: .\status-query\que-eugnegrasset-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-eugnegrasset-2017-10-03-14-01.txt
+input: ferncoppedge
+
+output: .\status-query\que-ferncoppedge-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-ferncoppedge-2017-10-03-14-01.txt
+input: franciscsirato
+
+output: .\status-query\que-franciscsirato-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-franciscsirato-2017-10-03-14-01.txt
+input: fridakahlo
+
+output: .\status-query\que-fridakahlo-2017-10-03-14-01.txtDownloaded 2577 tweets, Saved to .\status-query\que-fridakahlo-2017-10-03-14-01.txt
+input: fritzrehm
+
+output: .\status-query\que-fritzrehm-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-fritzrehm-2017-10-03-14-01.txt
+input: georgesribemontdessaignes
+
+output: .\status-query\que-georgesribemontdessaignes-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-georgesribemontdessaignes-2017-10-03-14-01.txt
+input: georgesseurat
+
+output: .\status-query\que-georgesseurat-2017-10-03-14-01.txtDownloaded 89 tweets, Saved to .\status-query\que-georgesseurat-2017-10-03-14-01.txt
+input: georgiaokeeffe
+
+output: .\status-query\que-georgiaokeeffe-2017-10-03-14-01.txtDownloaded 176 tweets, Saved to .\status-query\que-georgiaokeeffe-2017-10-03-14-01.txt
+input: gustavklimt
+
+output: .\status-query\que-gustavklimt-2017-10-03-14-01.txtDownloaded 386 tweets, Saved to .\status-query\que-gustavklimt-2017-10-03-14-01.txt
+input: henrimatisse
+
+output: .\status-query\que-henrimatisse-2017-10-03-14-01.txtDownloaded 497 tweets, Saved to .\status-query\que-henrimatisse-2017-10-03-14-01.txt
+input: hilmaafklint
+
+output: .\status-query\que-hilmaafklint-2017-10-03-14-01.txtDownloaded 51 tweets, Saved to .\status-query\que-hilmaafklint-2017-10-03-14-01.txt
+input: ionpacea
+
+output: .\status-query\que-ionpacea-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-ionpacea-2017-10-03-14-01.txt
+input: istvanilosvaivarga
+
+output: .\status-query\que-istvanilosvaivarga-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-istvanilosvaivarga-2017-10-03-14-01.txt
+input: jacobavanheemskerck
+
+output: .\status-query\que-jacobavanheemskerck-2017-10-03-14-01.txtDownloaded 1 tweets, Saved to .\status-query\que-jacobavanheemskerck-2017-10-03-14-01.txt
+input: joaqunsorolla
+
+output: .\status-query\que-joaqunsorolla-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-joaqunsorolla-2017-10-03-14-01.txt
+input: konstantinkorovin
+
+output: .\status-query\que-konstantinkorovin-2017-10-03-14-01.txtDownloaded 18 tweets, Saved to .\status-query\que-konstantinkorovin-2017-10-03-14-01.txt
+input: lawrenharris
+
+output: .\status-query\que-lawrenharris-2017-10-03-14-01.txtDownloaded 6 tweets, Saved to .\status-query\que-lawrenharris-2017-10-03-14-01.txt
+input: luciademetriadebalacescu
+
+output: .\status-query\que-luciademetriadebalacescu-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-luciademetriadebalacescu-2017-10-03-14-01.txt
+input: mcescher
+
+output: .\status-query\que-mcescher-2017-10-03-14-01.txtDownloaded 82 tweets, Saved to .\status-query\que-mcescher-2017-10-03-14-01.txt
+input: marcchagall
+
+output: .\status-query\que-marcchagall-2017-10-03-14-01.txtDownloaded 307 tweets, Saved to .\status-query\que-marcchagall-2017-10-03-14-01.txt
+input: mariannenorth
+
+output: .\status-query\que-mariannenorth-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-mariannenorth-2017-10-03-14-01.txt
+input: marsdenhartley
+
+output: .\status-query\que-marsdenhartley-2017-10-03-14-01.txtDownloaded 12 tweets, Saved to .\status-query\que-marsdenhartley-2017-10-03-14-01.txt
+input: marycassatt
+
+output: .\status-query\que-marycassatt-2017-10-03-14-01.txtDownloaded 163 tweets, Saved to .\status-query\que-marycassatt-2017-10-03-14-01.txt
+input: maryfedden
+
+output: .\status-query\que-maryfedden-2017-10-03-14-01.txtDownloaded 8 tweets, Saved to .\status-query\que-maryfedden-2017-10-03-14-01.txt
+input: mauriceprendergast
+
+output: .\status-query\que-mauriceprendergast-2017-10-03-14-01.txtDownloaded 7 tweets, Saved to .\status-query\que-mauriceprendergast-2017-10-03-14-01.txt
+input: michelparmentier
+
+output: .\status-query\que-michelparmentier-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-michelparmentier-2017-10-03-14-01.txt
+input: mykolapymonenko
+
+output: .\status-query\que-mykolapymonenko-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-mykolapymonenko-2017-10-03-14-01.txt
+input: nicolaetonitza
+
+output: .\status-query\que-nicolaetonitza-2017-10-03-14-01.txtDownloaded 4 tweets, Saved to .\status-query\que-nicolaetonitza-2017-10-03-14-01.txt
+input: olouisguglielmi
+
+output: .\status-query\que-olouisguglielmi-2017-10-03-14-01.txtDownloaded 1 tweets, Saved to .\status-query\que-olouisguglielmi-2017-10-03-14-01.txt
+input: owon
+
+output: .\status-query\que-owon-2017-10-03-14-01.txtDownloaded 273 tweets, Saved to .\status-query\que-owon-2017-10-03-14-01.txt
+input: pablopicasso
+
+output: .\status-query\que-pablopicasso-2017-10-03-14-01.txtDownloaded 864 tweets, Saved to .\status-query\que-pablopicasso-2017-10-03-14-01.txt
+input: paulcezanne
+
+output: .\status-query\que-paulcezanne-2017-10-03-14-01.txtDownloaded 2092 tweets, Saved to .\status-query\que-paulcezanne-2017-10-03-14-01.txt
+input: pauldutoit
+
+output: .\status-query\que-pauldutoit-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-pauldutoit-2017-10-03-14-01.txt
+input: pauljacoulet
+
+output: .\status-query\que-pauljacoulet-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-pauljacoulet-2017-10-03-14-01.txt
+input: paulklee
+
+output: .\status-query\que-paulklee-2017-10-03-14-01.txtDownloaded 469 tweets, Saved to .\status-query\que-paulklee-2017-10-03-14-01.txt
+input: pierreaugusterenoir
+
+output: .\status-query\que-pierreaugusterenoir-2017-10-03-14-01.txtDownloaded 13 tweets, Saved to .\status-query\que-pierreaugusterenoir-2017-10-03-14-01.txt
+input: qibaishi
+
+output: .\status-query\que-qibaishi-2017-10-03-14-01.txtDownloaded 10 tweets, Saved to .\status-query\que-qibaishi-2017-10-03-14-01.txt
+input: qianxuan
+
+output: .\status-query\que-qianxuan-2017-10-03-14-01.txtDownloaded 3 tweets, Saved to .\status-query\que-qianxuan-2017-10-03-14-01.txt
+input: rafaelzabaleta
+
+output: .\status-query\que-rafaelzabaleta-2017-10-03-14-01.txtDownloaded 61 tweets, Saved to .\status-query\que-rafaelzabaleta-2017-10-03-14-01.txt
+input: renemagritte
+
+output: .\status-query\que-renemagritte-2017-10-03-14-01.txtDownloaded 885 tweets, Saved to .\status-query\que-renemagritte-2017-10-03-14-01.txt
+input: rolfamstrong
+
+output: .\status-query\que-rolfamstrong-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-rolfamstrong-2017-10-03-14-01.txt
+input: sanyu
+
+output: .\status-query\que-sanyu-2017-10-03-14-01.txtDownloaded 669 tweets, Saved to .\status-query\que-sanyu-2017-10-03-14-01.txt
+input: stefanluchian
+
+output: .\status-query\que-stefanluchian-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-stefanluchian-2017-10-03-14-01.txt
+input: tomthomson
+
+output: .\status-query\que-tomthomson-2017-10-03-14-01.txtDownloaded 272 tweets, Saved to .\status-query\que-tomthomson-2017-10-03-14-01.txt
+input: toriikotondo
+
+output: .\status-query\que-toriikotondo-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-toriikotondo-2017-10-03-14-01.txt
+input: vasilepopescu
+
+output: .\status-query\que-vasilepopescu-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-vasilepopescu-2017-10-03-14-01.txt
+input: vicentemanansala
+
+output: .\status-query\que-vicentemanansala-2017-10-03-14-01.txtDownloaded 0 tweets, Saved to .\status-query\que-vicentemanansala-2017-10-03-14-01.txt
+input: vincentvangogh
+
+output: .\status-query\que-vincentvangogh-2017-10-03-14-01.txtDownloaded 1450 tweets, Saved to .\status-query\que-vincentvangogh-2017-10-03-14-01.txt
+input: wassilykandinsky
+
+output: .\status-query\que-wassilykandinsky-2017-10-03-14-01.txtDownloaded 192 tweets, Saved to .\status-query\que-wassilykandinsky-2017-10-03-14-01.txt
+input: williamadolphebouguereau
+
+output: .\status-query\que-williamadolphebouguereau-2017-10-03-14-01.txtDownloaded 13 tweets, Saved to .\status-query\que-williamadolphebouguereau-2017-10-03-14-01.txt
+input: winstonchurchill
+output: .\status-query\que-winstonchurchill-2017-10-03-14-01.txtDownloaded 1236 tweets, Saved to .\status-query\que-winstonchurchill-2017-10-03-14-01.txt

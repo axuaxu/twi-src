@@ -1,3 +1,0 @@
-
-input: ayjackson
-output: .\status-query\que-ayjackson-2017-10-02-20-25.txtDownloaded 5 tweets, Saved to .\status-query\que-ayjackson-2017-10-02-20-25.txt

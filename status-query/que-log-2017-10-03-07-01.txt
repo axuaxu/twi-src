@@ -1,3 +1,0 @@
-
-input: emilycarr
-output: .\status-query\que-emilycarr-2017-10-03-07-01.txtDownloaded 34 tweets, Saved to .\status-query\que-emilycarr-2017-10-03-07-01.txt

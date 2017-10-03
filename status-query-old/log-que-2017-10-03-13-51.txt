@@ -1,0 +1,15 @@
+
+input: joaqunsorolla
+
+output: .\status-query\que-joaqunsorolla-2017-10-03-13-51.txtDownloaded 0 tweets, Saved to .\status-query\que-joaqunsorolla-2017-10-03-13-51.txt
+input: konstantinkorovin
+
+output: .\status-query\que-konstantinkorovin-2017-10-03-13-51.txtDownloaded 18 tweets, Saved to .\status-query\que-konstantinkorovin-2017-10-03-13-51.txt
+input: lawrenharris
+
+output: .\status-query\que-lawrenharris-2017-10-03-13-51.txtDownloaded 6 tweets, Saved to .\status-query\que-lawrenharris-2017-10-03-13-51.txt
+input: luciademetriadebalacescu
+
+output: .\status-query\que-luciademetriadebalacescu-2017-10-03-13-51.txtDownloaded 0 tweets, Saved to .\status-query\que-luciademetriadebalacescu-2017-10-03-13-51.txt
+input: mcescher
+output: .\status-query\que-mcescher-2017-10-03-13-51.txtDownloaded 82 tweets, Saved to .\status-query\que-mcescher-2017-10-03-13-51.txt

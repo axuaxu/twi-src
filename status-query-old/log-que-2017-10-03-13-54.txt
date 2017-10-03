@@ -1,0 +1,18 @@
+
+input: hilmaafklint
+
+output: .\status-query\que-hilmaafklint-2017-10-03-13-54.txtDownloaded 51 tweets, Saved to .\status-query\que-hilmaafklint-2017-10-03-13-54.txt
+input: ionpacea
+
+output: .\status-query\que-ionpacea-2017-10-03-13-54.txtDownloaded 0 tweets, Saved to .\status-query\que-ionpacea-2017-10-03-13-54.txt
+input: istvanilosvaivarga
+
+output: .\status-query\que-istvanilosvaivarga-2017-10-03-13-54.txtDownloaded 0 tweets, Saved to .\status-query\que-istvanilosvaivarga-2017-10-03-13-54.txt
+input: jacobavanheemskerck
+
+output: .\status-query\que-jacobavanheemskerck-2017-10-03-13-54.txtDownloaded 1 tweets, Saved to .\status-query\que-jacobavanheemskerck-2017-10-03-13-54.txt
+input: joaqunsorolla
+
+output: .\status-query\que-joaqunsorolla-2017-10-03-13-54.txtDownloaded 0 tweets, Saved to .\status-query\que-joaqunsorolla-2017-10-03-13-54.txt
+input: konstantinkorovin
+output: .\status-query\que-konstantinkorovin-2017-10-03-13-54.txtDownloaded 18 tweets, Saved to .\status-query\que-konstantinkorovin-2017-10-03-13-54.txt

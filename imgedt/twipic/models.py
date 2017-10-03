@@ -28,7 +28,7 @@ class StatusInfo(models.Model):
     imgurl = models.CharField(max_length=80)
     def __str__(self):
         return self.imgurl
-    def image_tag(self):
-         return u'<img src="%s" />' % imgurl
-    image_tag.short_description = 'Image'
-    image_tag.allow_tags = True
+  
+    def admin_image(self):
+        return '<img src="%s" style="width: 150px;"/>' % self.imgurl
+    admin_image.allow_tags = True

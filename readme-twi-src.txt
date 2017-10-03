@@ -13,8 +13,12 @@ twi_down_03.py     download pics from twit
 img_list.py       list images files in dir \images
                   param:[input: image dir ouput: imglist.txt]
 
-twi_search-05.py     search twitter
+twi_search_05.py     search twitter
                      param:[input: query list, twi_query_list.txt ouput: que-query-time.txt]
+
+twi_search_sht_02.py     search twitter
+                     param:[input: query list, twi_query_list.txt 
+                     ouput: que-query-time.txt, sht-que-query-time.txt for urls]       
 
 
 //links

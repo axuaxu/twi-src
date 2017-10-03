@@ -1,3 +1,0 @@
-
-input: georgiaokeeffe
-output: .\status-query\que-georgiaokeeffe-2017-10-03-07-02.txtDownloaded 182 tweets, Saved to .\status-query\que-georgiaokeeffe-2017-10-03-07-02.txt

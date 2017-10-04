@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'photologue',
     'sortedm2m',
+    'import_export',
     'twipic.apps.TwipicConfig',
     'django.contrib.sitemaps',
     'django.contrib.sites',
@@ -121,7 +122,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
-
+STATIC_ROOT = 'c:\\python27\\twipro\\twi-src\\pubic'
 STATIC_URL = '/static/'
 MEDIA_ROOT = 'c:\\python27\\twipro\\twi-src\\images\\'
 MEDIA_URL = 'http://localhost:8000/media/'

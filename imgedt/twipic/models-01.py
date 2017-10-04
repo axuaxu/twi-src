@@ -32,3 +32,4 @@ class StatusInfo(models.Model):
     def admin_image(self):
         return '<img src="%s" style="width: 150px;"/>' % self.imgurl
     admin_image.allow_tags = True
+

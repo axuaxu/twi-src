@@ -28,15 +28,20 @@ media_list.py       list images video files in dir \images  videos
                     
 load_img_01.py   load image file nammes to twipic  table first_input
 load_media_info.py  load image file nammes to twipic  table imageinfo
-load_status_info_01.py  load status file nammes to twipic  table statusinfo
-load_airpaint.py  load que files to twipic  table airpaint
-
+load_status_info_01.py  load status files to twipic  table statusinfo
+load_artpaint.py  load que files to twipic  table airpaint
+load_artpaintedt.py  load que files to twipic  table airpaintedt
 
 //links
+
+django
+https://simpleisbetterthancomplex.com/about/
 
 http://sebastianraschka.com/Articles/2014_sqlite_in_python_tutorial.html
                                 sqlite
 db browser for sqlite
+delete duplicate values
+DELETE FROM sms WHERE rowid NOT IN (SELECT min(rowid) FROM sms GROUP BY address, body);
 
 https://stackoverflow.com/questions/16307307/django-admin-show-image-from-imagefield
 https://stackoverflow.com/questions/33075804/how-to-show-image-in-django-admin

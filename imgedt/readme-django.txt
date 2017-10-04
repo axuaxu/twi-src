@@ -29,6 +29,8 @@ media_list.py       list images video files in dir \images  videos
 load_img_01.py   load image file nammes to twipic  table first_input
 load_media_info.py  load image file nammes to twipic  table imageinfo
 load_status_info_01.py  load status file nammes to twipic  table statusinfo
+load_airpaint.py  load que files to twipic  table airpaint
+
 
 //links
 
@@ -37,8 +39,7 @@ http://sebastianraschka.com/Articles/2014_sqlite_in_python_tutorial.html
 db browser for sqlite
 
 https://stackoverflow.com/questions/16307307/django-admin-show-image-from-imagefield
-https://stackoverflow.com/questions/2443752/django-display-image-in-admin-interface
 https://stackoverflow.com/questions/33075804/how-to-show-image-in-django-admin
 https://stackoverflow.com/questions/1385094/django-admin-and-showing-thumbnail-images
-https://stackoverflow.com/questions/1385094/django-admin-and-showing-thumbnail-images
+https://stackoverflow.com/questions/2443752/django-display-image-in-admin-interface
                  image display in admin

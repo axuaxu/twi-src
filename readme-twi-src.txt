@@ -22,6 +22,10 @@ twi_search_sht_02.py     search twitter
 
 
 //links
+https://www.pubhist.com/
+www.wikiart.org
+https://ahistoryofart.com/2017/03/02/art-2/
+
 https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/tweet-object 
                    tweet object
 http://www.nirg.net/using-tweepy.html  

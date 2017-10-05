@@ -97,7 +97,17 @@ class AllPainters(models.Model):
     def __str__(self):
         return self.hyphenname
   
-
 class AllPaintersResource(resources.ModelResource):
          class Meta:
             model = AllPainters
+
+class TwiAcc(models.Model):
+    twi_acc = models.CharField(max_length=30,default="")
+    category = models.CharField(max_length=30,default="")
+    desc = models.CharField(max_length=50,default="")
+    def __str__(self):
+        return self.twi_acc
+  
+class TwiAccResource(resources.ModelResource):
+         class Meta:
+            model = TwiAcc

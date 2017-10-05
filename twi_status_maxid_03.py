@@ -34,18 +34,17 @@ def findMaxid(ft,laxid):
     return laxid
 
 def getMaxID(twi_id,src,srcDown,maxid):
-    twi_id = twi_id.replace('\n','')
     source = os.listdir(src)
     source2 = os.listdir(srcDown)
     #print twi_id
     for ft in source:
         #ffArr = ft.split('-')
         #ff = ffArr[0]
-        #print ff
+        #print ft
 
         if ft.startswith(twi_id):
            fn = src+'\\'+ft
-           #print fn
+           print fn
            faxid =findMaxid(fn,maxid)
            if faxid < maxid:
                maxid = faxid
@@ -122,11 +121,13 @@ for twi_id in ftwi:
 for tid in twiArr: 
      i = i + 1
      print i,tid
+     tid = tid.replace('\n','')
+     tid = tid.replace('\r','')
      maxid = getMaxID(tid,cdir,srcDown,maxid)
-     print "last: twi_id:"+twi_id+" maxid:"+str(maxid)
-     tstatus = getTwi(twi_id,maxid,count)
-     out = cdir+'\\'+twi_id+'-'+timestr[:16]+'.txt'
+     print "last: twi_id:"+tid+" maxid:"+str(maxid)
+     tstatus = getTwi(tid,maxid,count)
+     out = cdir+'\\'+tid+'-'+timestr[:16]+'.txt'
      out = out.replace('\r\n','')
      fout = codecs.open(out,"w",encoding="utf-8")
      fout.write(tstatus)
-     print "input: "+ twi+"\ncount: "+str(count)+ "\noutput: "+out
+     print "input: "+ tid+"\ncount: "+str(count)+ "\noutput: "+out

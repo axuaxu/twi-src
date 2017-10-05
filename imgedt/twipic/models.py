@@ -87,3 +87,17 @@ class ArtPaintChosen(models.Model):
 class ArtPaintChosenResource(resources.ModelResource):
          class Meta:
             model = ArtPaintChosen
+
+class AllPainters(models.Model):
+    last = models.CharField(max_length=30,default="")
+    first = models.CharField(max_length=30,default="")
+    hyphenname = models.CharField(max_length=30,default="")
+    onename = models.CharField(max_length=30,default="")
+    desc = models.CharField(max_length=50,default="")
+    def __str__(self):
+        return self.hyphenname
+  
+
+class AllPaintersResource(resources.ModelResource):
+         class Meta:
+            model = AllPainters

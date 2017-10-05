@@ -5,6 +5,7 @@ from django.contrib import admin
 
 # Register your models here.
 from .models import StatusInfo,ArtPaint,ArtPaintEdt,ArtPaintEdtResource,ArtPaintChosen,ArtPaintChosenResource
+from .models import AllPainters,AllPaintersResource
 from import_export.admin import ImportExportModelAdmin,ImportExportActionModelAdmin
 
 
@@ -31,7 +32,15 @@ class ArtPaintChosenAdmin(ImportExportActionModelAdmin):
 	 list_editable = ('desc','imgurl','chosen')
 	 list_filter = ('chosen',)
 
+class AllPaintersAdmin(ImportExportActionModelAdmin):
+	 resource_class = AllPaintersResource
+	 list_display = ('last','hyphenname','first','onename','desc')
+	 list_editable = ('hyphenname','first','onename','desc')
+	 list_filter = ('last',)
+
+
 admin.site.register(StatusInfo,StatusInfoAdmin)
 admin.site.register(ArtPaint,ArtPaintAdmin)
 admin.site.register(ArtPaintEdt,ArtPaintEdtAdmin)
 admin.site.register(ArtPaintChosen,ArtPaintChosenAdmin)
+admin.site.register(AllPainters,AllPaintersAdmin)

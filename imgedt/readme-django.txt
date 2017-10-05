@@ -29,8 +29,10 @@ media_list.py       list images video files in dir \images  videos
 load_img_01.py   load image file nammes to twipic  table first_input
 load_media_info.py  load image file nammes to twipic  table imageinfo
 load_status_info_01.py  load status files to twipic  table statusinfo
-load_artpaint.py  load que files to twipic  table airpaint
-load_artpaintedt.py  load que files to twipic  table airpaintedt
+load_artpaint.py  load que files to twipic  table artpaint
+load_artpaintedt.py  load que files to twipic  table artpaintedt
+load_allpainters.py  load painters to twipic table allpainters
+
 
 //links
 

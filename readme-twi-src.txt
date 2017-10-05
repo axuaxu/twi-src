@@ -2,7 +2,7 @@
 twi_status:        get status from twitter acc
                    params:[input: acc twi_list.txt 
                            output: twi_id_time.txt]
-twi_status_maxid_02.py  get status from twitter acc with maxid from acc list txt
+twi_status_maxid_03.py  get status from twitter acc with maxid from acc list txt
                       params:[input: acc twi_list.txt 
                               output: twi_id_time.txt]
 twi_down_03.py     download pics from twit

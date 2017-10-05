@@ -31,6 +31,7 @@ load_media_info.py  load image file nammes to twipic  table imageinfo
 load_status_info_01.py  load status files to twipic  table statusinfo
 load_artpaint.py  load que files to twipic  table artpaint
 load_artpaintedt.py  load que files to twipic  table artpaintedt
+load_stagefirst.py load status files to twipic  table artpaintedt
 load_allpainters.py  load painters to twipic table allpainters
 load_twiacc.py  load painters to twipic table twiacc
 

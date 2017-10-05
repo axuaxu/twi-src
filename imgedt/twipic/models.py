@@ -88,6 +88,23 @@ class ArtPaintChosenResource(resources.ModelResource):
          class Meta:
             model = ArtPaintChosen
 
+class StageFirst(models.Model):
+    twi_acc = models.CharField(max_length=30)
+    twi_id = models.CharField(max_length=30)
+    retwi = models.CharField(max_length=30)
+    fav = models.CharField(max_length=30)
+    desc = models.CharField(max_length=140)
+    imgurl = models.CharField(max_length=80)
+    def __str__(self):
+        return self.twi_acc
+    def admin_image(self):
+        return '<img src="%s" style="width: 150px;"/>' % self.imgurl
+    admin_image.allow_tags = True
+
+class StageFirstResource(resources.ModelResource):
+         class Meta:
+            model = StageFirst
+
 class AllPainters(models.Model):
     last = models.CharField(max_length=30,default="")
     first = models.CharField(max_length=30,default="")

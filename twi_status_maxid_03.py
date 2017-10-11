@@ -106,12 +106,12 @@ now =  datetime.datetime.now()
 timestr = str(now).replace(' ','-').replace(':','-')
 #print str(now)+'\n'+timestr+'\n'+timestr[:19]
 
-twi = "twi_list.txt"
+twi = "pic_list.txt"
 #fout = codecs.open(out,"w",encoding="utf-8")
 ftwi = codecs.open(twi,'r',encoding="utf-8")
 count = 100
-cdir = '.\\status'
-srcDown = '.\\status-down'
+cdir = '.\\status-pics'
+srcDown = '.\\status-down-pics'
 maxid = 9999999999999999999
 i = 0
 twiArr = []

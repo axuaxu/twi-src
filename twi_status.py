@@ -64,11 +64,11 @@ now =  datetime.datetime.now()
 timestr = str(now).replace(' ','-').replace(':','-')
 #print str(now)+'\n'+timestr+'\n'+timestr[:19]
 
-twi = "twi_list.txt"
+twi = "pic_list.txt"
 #fout = codecs.open(out,"w",encoding="utf-8")
 ftwi = codecs.open(twi,'r',encoding="utf-8")
 count = 100
-cdir = '.\\status'
+cdir = '.\\status-pics'
 for twi_id in ftwi: 
      tstatus = getTwi(twi_id,count)
      out = cdir+'\\'+twi_id+'-'+timestr[:16]+'.txt'

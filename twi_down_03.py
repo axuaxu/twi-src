@@ -58,10 +58,10 @@ def downPics(fname,imgD,videoD):
           #print vname
 
 
-source = os.listdir(".\\status\\")
-destination = ".\\status-down\\"
-srcdir = ".\\status\\"
-imgD = ".\\images\\"
+source = os.listdir(".\\status-pics\\")
+destination = ".\\status-down-pics\\"
+srcdir = ".\\status-pics\\"
+imgD = ".\\pics\\"
 videoD = ".\\videos\\"
 count = 1
 i = 0

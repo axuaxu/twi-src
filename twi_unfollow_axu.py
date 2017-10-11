@@ -11,12 +11,13 @@ followers = api.followers_ids(SCREEN_NAME)
 friends = api.friends_ids(SCREEN_NAME)
 
 i = 0
-count = 20 
+count = 10 
 for f in friends:
   if i< count:
-    i = i+1
-    print i
+
     if f not in followers:
+    	i = i+1
+        print i
         print "Unfollow {0}".format(api.get_user(f).screen_name)
         #if raw_input("Y/N?") == 'y' or 'Y':
         api.destroy_friendship(f)
